@@ -31,7 +31,10 @@
                 <img src="a2/arrow.png" id="arrow">
                 <img src="a2/q1ANSWER.png">
             </div>
-            <p>Placeholder Text</p>
+            <p>
+                To remove the yellow and replace it with white, I used Photoshop to achieve this. <br>
+                Under "Adjustments", there is a "Replace Color" feature in which I selected the yellow <br>
+                with the eye dropper tool and hit replace with a pure white color.</p>
             <br> <hr> <br>
             <h1>Question 2</h1>
             <div id="question">
@@ -39,7 +42,11 @@
                 <img src="a2/arrow.png" id="arrow">
                 <img src="a2/q2ANSWER175.png">
             </div>
-            <p>Placeholder Text</p>
+            <p>
+                I used a threshold value of 175 in Photoshop. <br>
+                This value seemed to give a good balance between readable font and a clear divide 
+                between the black text and the white background.
+            </p>
             <br> <hr> <br>
             <h1>Question 3</h1>
             <div id="question">
@@ -47,7 +54,12 @@
                 <img src="a2/arrow.png" id="arrow">
                 <img src="a2/q3ANSWER55.png">
             </div>
-            <p>Placeholder Text</p>
+            <p>
+                I used a threshold value of 55 in Photoshop. <br>
+                This image was a lot tougher than the previous image, but this value was the only value I could find
+                that would give a somewhat readable text with no black in the background. It was either hard to read (like this image)
+                or the background would turn black.
+            </p>
             <br> <hr> <br>
             <h1>Question 4</h1>
             <div id="question">
@@ -55,7 +67,11 @@
                 <img src="a2/arrow.png" id="arrow">
                 <img src="a2/q4ANSWER114.png">
             </div>
-            <p>Placeholder Text</p>
+            <p>
+                I used a threshold value of 114 in Photoshop. <br>
+                This was a similar situation to the previous image where it was hard to balance between a white background and text that 
+                was black and readable. I don't believe there is single best value, but there is a small range where you can get good results.
+            </p>
             <br> <hr> <br>
             <h1>Question 5</h1>
             <div id="question">
@@ -63,7 +79,12 @@
                 <img src="a2/arrow.png" id="arrow">
                 <img src="a2/q5ANSWERRobertscross.png">
             </div>
-            <p>Placeholder Text</p>
+            <p>
+                The edge detection algorithm that I used was the Roberts cross algorithm. <br>
+                At the black rectangle boundary, only the right and bottom edges are showing, while the top and left edges turned white. <br>
+                At the grey rectangle boundary, the opposite edges of the black rectangle boundary are showing (top and left), while the right and bottom edges are white now. <br>
+                The lines forming the "X" no longer intersect. It appears almost that the "X" is 3D now (The same could be said about the rectangle).
+            </p>
             <br> <hr> <br>
             <h1>Question 6</h1>
             <div id="question">
@@ -73,7 +94,17 @@
                 &nbsp;
                 <img src="a2/q6ANSWERnoiseReduction.png">
             </div>
-            <p>Placeholder Text</p>
+            <p>
+                I used the "despeckle" noise reduction method for the image on the left in GIMP. <br>
+                It did a good job removing the noise, but the image definitely lost a lot of quality from this method. <br> <br>
+                I used the "noise reduction" option for the image on the right in GIMP. <br>
+                It did a similar job to the despeckle, but I would argue it made the quality worse by "smoothing" out the image.
+                The detail in the image has been reduced significantly as a result. <br> <br>
+
+                I believe these methods reduce noise by smoothing out the pixels in the image so they appear more blended in and "smoother",
+                but this is an issue as it leads to the appearance of quality loss (such as the images above). This is where noise reduction
+                methods fail. They simply can't remove the noise and maintain the original quality of the image.
+            </p>
         </div>
     </body>
 </html>
