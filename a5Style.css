@@ -4,13 +4,18 @@ html {
 
 body {
     background-color: #2b2b2b;
-    background-image: url("a5/a5Background.jpg");
+    background-image: url("a5/a5Background.png");
     background-blend-mode: overlay;
     padding: 0px;
     margin: 0px;
 }
 
 h1 {
+    color: rgb(190, 190, 190);
+    text-align: center;
+}
+
+h2 {
     color: rgb(190, 190, 190);
     text-align: center;
 }
@@ -56,4 +61,9 @@ a:hover {
 img {
     height: 500px;
     width: auto;
+}
+
+#link {
+    color:#00a524;
+    font-size: 25px;
 }
